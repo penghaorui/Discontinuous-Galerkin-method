@@ -4,7 +4,8 @@ Implementation of the Discontinuous Galerkin method for elastic modeling wave pr
 Author information: **Haorui Peng**  
 This code was created during my master project in China University of Geosciences(Wuhan), from 2014 to 2017.  
 
-The implementation is mainly based on the paper below, but modified with Central Flux. 
+The implementation is mainly based on the paper below, but modified with Central Flux.   
+
 XUE Zhao, DONG Liang-Guo, LI Xiao-Bo, LIU Yu-Zhu. Discontinuous Galerkin finite-element method for elastic wave modeling including surface topography, Chinese Journal of Geophysics (in Chinese), 2014, 57(4): 1209-1223, doi: 10.6038/cjg20140418.  
 
 The application example of this code is as below: 
