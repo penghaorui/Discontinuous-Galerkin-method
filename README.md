@@ -1,5 +1,5 @@
 # Discontinuous-Galerkin-method
-Implementation of the Discontinuous Galerkin method for elastic modeling wave propagation in complex media triangluar meshes with MPI and OpenMP.  
+Implementation of the Discontinuous Galerkin method for elastic modeling wave propagation in complex media with triangluar meshes using MPI and OpenMP.  
 
 Author information: **Haorui Peng**  
 This code was created during my master project in China University of Geosciences(Wuhan), from 2014 to 2017.  
