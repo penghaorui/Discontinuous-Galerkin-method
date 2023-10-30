@@ -12,12 +12,12 @@ The application example of this code is as below:
 Haorui Peng et al., Preliminary application of discontinuous Galerkin method in seismic response of fractured-vuggy 
 carbonatite reservoirs, SPG/SEG International Geophysical Conference, 2016. 
 
-To generate meshes for a given model, please check 
+To generate meshes for a given model, please check  
 https://www.cs.cmu.edu/~quake/triangle.html 
 
 Two versions are provided here:
- 	a) using MPI and OpenMP
- 	b) using only OpenMP
+ > - a) using MPI and OpenMP
+ > - b) using only OpenMP
 
 The input_files directory provides the files for the input.
 two subfolders are included in the input_file directory.
