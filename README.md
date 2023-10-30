@@ -33,9 +33,8 @@ To use the code follow the steps below:
 step 1: create mesh files by running input_files/mesh/**main.m**  
 step 2:  
 >if choose to use MPI,run the command below:
->	mpicc -o dg DG_leap_Frog_MPI.c -lm -fopenmp
-	mpirun -np 2 dg 
-
+> - mpicc -o dg DG_leap_Frog_MPI.c -lm -fopenmp
+> - mpirun -np 2 dg 
 >if choose only to use OpenMP, run the command below:
->	gcc -o dg DG_leap_Frog_OpenMP.c -lm -fopenmp
-	./dg
+> - gcc -o dg DG_leap_Frog_OpenMP.c -lm -fopenmp
+> - ./dg
