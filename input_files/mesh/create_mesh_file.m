@@ -2,7 +2,7 @@
 % and then it converts the mesh files to new model_converted files for
 % reading in the DG C code
 %create mesh
-command = '/media/haorui/Data1/Utrecht_Study/code/GIthub/DG/Triangle/Triangle-master./triangle ./slope_model.poly  -pqanA';
+command = './triangle slope_model.poly  -pqanA';
 status = system(command)
 
 %convert mesh files format
