@@ -8,7 +8,7 @@ The implementation is mainly based on the paper below, but modified with Central
 
 XUE Zhao, DONG Liang-Guo, LI Xiao-Bo, LIU Yu-Zhu. Discontinuous Galerkin finite-element method for elastic wave modeling including surface topography, Chinese Journal of Geophysics (in Chinese), 2014, 57(4): 1209-1223, doi: 10.6038/cjg20140418.  
 
-The application example of this code is as below: 
+The application example of this code is as below:   
 Haorui Peng et al., Preliminary application of discontinuous Galerkin method in seismic response of fractured-vuggy 
 carbonatite reservoirs, SPG/SEG International Geophysical Conference, 2016. 
 
