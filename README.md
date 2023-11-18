@@ -14,7 +14,7 @@ carbonatite reservoirs, SPG/SEG International Geophysical Conference, 2016.
 
 To generate meshes for a given model, please check  
 https://www.cs.cmu.edu/~quake/triangle.html 
-![slope_model_mesh](https://github.com/penghaorui/Discontinuous-Galerkin-method/assets/32850029/8ed2eed2-53e7-4bb4-bd8d-9a9ead6d754d =20x20)
+<img src="[http://....jpg](https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/output_files/slope_Vz_snapshot.jpeg)" width="200" height="200" />
 
 Two versions are provided here:
  > - a) using MPI and OpenMP
