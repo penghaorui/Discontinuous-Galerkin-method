@@ -24,7 +24,7 @@ The input_files directory provides the files for the input. Two subfolders are i
 input_files/precomputed_matrix/ contains the matlab codes to generate precomputed matrices that will be used as input to the DG code later. The precomputed matrices are necessary according the DG theory. Part of these matlab codes are given by the book: Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications.
 
 The output_files contain the files for the output. 
-https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/output_files/slope_Vx_snapshot.jpeg
+
 
 
 To use the code follow the steps below:  
