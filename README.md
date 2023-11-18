@@ -28,7 +28,7 @@ input_files/precomputed_matrix/ contains the matlab codes to generate precompute
 
 The output_files contain the files for the output. \
 Here is an example of the output wavefield simulation for the slope model, overlying on the mesh:\
-<img src="[overlying](https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/output_files/slope_mesh_overlap.png)" width="600" height="600" />
+<img src="https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/output_files/slope_mesh_overlap.png" width="600" height="600" />
 
 To use the code follow the steps below:  
 step 1: create mesh files by running input_files/mesh/**main.m**  
