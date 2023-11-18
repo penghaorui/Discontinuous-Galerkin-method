@@ -15,7 +15,7 @@ carbonatite reservoirs, SPG/SEG International Geophysical Conference, 2016.
 To generate meshes for a given model, please check  
 https://www.cs.cmu.edu/~quake/triangle.html 
 
-Here is an example of the triangular meshing for a slope model:\
+Here is an example of the triangular meshing for a slope model with coupled acoustic-elastic interface:\
 <img src="https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/input_files/mesh/slope_model_mesh.png" width="600" height="600" />
 
 Two versions are provided here:
@@ -26,9 +26,9 @@ The input_files directory provides the files for the input. Two subfolders are i
 
 input_files/precomputed_matrix/ contains the matlab codes to generate precomputed matrices that will be used as input to the DG code later. The precomputed matrices are necessary according the DG theory. Part of these matlab codes are given by the book: Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications.
 
-The output_files contain the files for the output. 
-![slope_Vz_snapshot](https://github.com/penghaorui/Discontinuous-Galerkin-method/assets/32850029/b510f153-f7f4-46ca-b890-3c62a766fcd5)
-
+The output_files contain the files for the output. \
+Here is an example of the output wavefield snapshot for the slope model
+<img src="https://github.com/penghaorui/Discontinuous-Galerkin-method/blob/main/output_files/slope_Vx_snapshot.jpeg" width="600" height="600" />
 
 To use the code follow the steps below:  
 step 1: create mesh files by running input_files/mesh/**main.m**  
