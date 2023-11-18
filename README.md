@@ -19,19 +19,15 @@ Two versions are provided here:
  > - a) using MPI and OpenMP
  > - b) using only OpenMP
 
-The input_files directory provides the files for the input.
-two subfolders are included in the input_file directory.
-input_files/mesh contains the mesh files and the matlab codes to generate them.
+The input_files directory provides the files for the input. Two subfolders are included in the input_file directory. The input_files/mesh contains the mesh files and the matlab codes to generate them.
 
-input_files/precomputed_matrix/ contains the matlab codes to generate precomputed matrices that will be used as
-input to the DG code later. The precomputed matrices are necessary according the DG theory,  
-Part of these matlab codes are given by the book: Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications.
+input_files/precomputed_matrix/ contains the matlab codes to generate precomputed matrices that will be used as input to the DG code later. The precomputed matrices are necessary according the DG theory. Part of these matlab codes are given by the book: Nodal Discontinuous Galerkin Methods: Algorithms, Analysis, and Applications.
 
 The output_files contain the files for the output.  
 To use the code follow the steps below:  
 step 1: create mesh files by running input_files/mesh/**main.m**  
 step 2:  
->if choose to use MPI,run the command below:
+>if choose to use MPI with 2 cores, run the command below:
 > - mpicc -o dg DG_leap_Frog_MPI.c -lm -fopenmp
 > - mpirun -np 2 dg
 
