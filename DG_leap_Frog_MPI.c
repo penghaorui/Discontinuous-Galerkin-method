@@ -312,23 +312,7 @@ int main(int argc, char *argv[])
 	/*set neighboring triangles and edge odering*/
 	Neighbor_Edge(Tri, Neighbor, neighbor, Edge, Triangle, Edge_flag);
 	IBE(ibe);
-
-	/*set source triangles*/
-	for (num = 0; num < Source_tri; num++)
-	{
-		for (i = 0; i < Np; i++)
-		{
-			n = source[num * 3 + 0] - 1;
-			k = source[num * 3 + 1] - 1;
-			sum = 0;
-			for (j = 0; j < Np; j++)
-			{
-				sum = sum + V[i][j] * V[k][j];
-			}
-			fun[num * Np + i] = sum / Jacobi[n];
-		}
-	}
-
+	
 	/*set neighboring nodes*/
 	NeighborNodes(Tri, Node_Neighbor, Triangle, Edge, Neighbor, ibe);
 
